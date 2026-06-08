@@ -16,7 +16,8 @@ if [[ -z "$USER_TO_CREATE" || -z "$USER_PASS" ]]; then
   exit 1
 fi
 
-sqlplus -s / as sysdba <<EOF
+echo "Creating user ${USER_TO_CREATE}..."
+su -p oracle -c "$ORACLE_HOME/bin/sqlplus / as sysdba <<EOF
 
 DECLARE
     v_count NUMBER;
@@ -44,4 +45,4 @@ BEGIN
 END;
 /
 EXIT;
-EOF
+EOF" > /dev/null 2>&1
