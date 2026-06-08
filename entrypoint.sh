@@ -19,6 +19,7 @@ output=$(/etc/init.d/oracle-xe start 2>&1)
 
 if echo "$output" | grep -q "not configured"; then
   $STARTUP_DIR/init_db.sh
+  $STARTUP_DIR/create_dump.sh
 fi
 
 $STARTUP_DIR/watch_logs.sh
