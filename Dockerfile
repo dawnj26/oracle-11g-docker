@@ -21,6 +21,7 @@ RUN yum install -y unzip libaio bc net-tools initscripts && \
 
 RUN mkdir -p $STARTUP_DIR
 RUN mkdir -p $IMPORT_DIR
+RUN mkdir -p $SCRIPT_PATH
 
 # Create directory for installation files
 WORKDIR /tmp
@@ -50,8 +51,8 @@ RUN rm -rf /tmp/*
 
 COPY ./scripts $SCRIPT_PATH
 
-RUN chmod ug+x $SCRIPT_PATH/*.sh && \
-    chmod ug+x $STARTUP_DIR/*.sh
+RUN chmod ug+x $SCRIPT_PATH/* && \
+    chmod ug+x $STARTUP_DIR/*
 
 # Copy the startup/entrypoint script
 COPY entrypoint.sh /
