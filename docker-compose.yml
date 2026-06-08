@@ -1,7 +1,7 @@
 services:
   oracle-db:
     build: .
-    container_name: oracle-11g-custom
+    container_name: oracle-11g-xe
     shm_size: "2gb"
     ports:
       - "1521:1521"
