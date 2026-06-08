@@ -1,5 +1,4 @@
 # Oracle DB Docker
----
 Docker image for Oracle DB
 
 ## Getting Started
