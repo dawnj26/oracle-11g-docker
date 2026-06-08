@@ -1,0 +1,119 @@
+;;; 
+Import: Release 11.2.0.2.0 - Production on Thu Jun 4 15:56:11 2026
+
+Copyright (c) 1982, 2009, Oracle and/or its affiliates.  All rights reserved.
+;;; 
+Connected to: Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
+Master table "SYSTEM"."SYS_IMPORT_FULL_01" successfully loaded/unloaded
+ORA-39146: schema "DBLERP" does not exist
+Starting "SYSTEM"."SYS_IMPORT_FULL_01":  system/******** DIRECTORY=DUMP_DIR DUMPFILE=dblerp060426.dmp REMAP_SCHEMA=DBLERP:ERP LOGFILE=import.log 
+Processing object type SCHEMA_EXPORT/USER
+ORA-31684: Object type USER:"ERP" already exists
+Processing object type SCHEMA_EXPORT/SYSTEM_GRANT
+Processing object type SCHEMA_EXPORT/ROLE_GRANT
+Processing object type SCHEMA_EXPORT/DEFAULT_ROLE
+Processing object type SCHEMA_EXPORT/PRE_SCHEMA/PROCACT_SCHEMA
+Processing object type SCHEMA_EXPORT/SEQUENCE/SEQUENCE
+Processing object type SCHEMA_EXPORT/TABLE/TABLE
+Processing object type SCHEMA_EXPORT/TABLE/TABLE_DATA
+. . imported "ERP"."CUSTOMERS"                           62.07 KB     383 rows
+. . imported "ERP"."ITEM_MASTER"                         55.82 KB     501 rows
+. . imported "ERP"."BIR_ATC_CODE"                        12.02 KB      10 rows
+. . imported "ERP"."COMPANY"                             10.45 KB       1 rows
+. . imported "ERP"."CURRENCY"                            5.851 KB       1 rows
+. . imported "ERP"."DOC_SEQUENCE"                        8.710 KB       4 rows
+. . imported "ERP"."ITEM_UOM"                            16.20 KB     501 rows
+. . imported "ERP"."PAYMENT_MODE"                        5.921 KB       5 rows
+. . imported "ERP"."PRICE_LIST_DT"                       22.21 KB     501 rows
+. . imported "ERP"."PRICE_LIST_HD"                       5.843 KB       1 rows
+. . imported "ERP"."SALESMAN"                            5.867 KB       2 rows
+. . imported "ERP"."SALES_DR_HD"                         14.59 KB       5 rows
+. . imported "ERP"."SALES_DR_LINE"                       11.92 KB       4 rows
+. . imported "ERP"."SALES_INVOICE_HD"                    14.82 KB       3 rows
+. . imported "ERP"."SALES_INVOICE_LINE"                  11.42 KB       2 rows
+. . imported "ERP"."SALES_ORD_HD"                        14.82 KB      12 rows
+. . imported "ERP"."SALES_ORD_LINE"                      11.99 KB       6 rows
+. . imported "ERP"."SALES_QUOTE_HD"                      14.59 KB      25 rows
+. . imported "ERP"."SALES_QUOTE_LINE"                    10.71 KB      16 rows
+. . imported "ERP"."SUPPLIERS"                           15.58 KB      89 rows
+. . imported "ERP"."TAX_CODE"                            11.85 KB      11 rows
+. . imported "ERP"."TAX_GROUP"                           6.140 KB       8 rows
+. . imported "ERP"."TAX_GROUP_LINE"                      6.398 KB      12 rows
+. . imported "ERP"."TAX_TYPE"                            6.781 KB       4 rows
+. . imported "ERP"."TERMS"                               6.273 KB       3 rows
+. . imported "ERP"."UOM"                                 5.890 KB       6 rows
+. . imported "ERP"."WAREHOUSE"                           5.921 KB       3 rows
+. . imported "ERP"."ACCOUNTING_PERIOD"                       0 KB       0 rows
+. . imported "ERP"."AR_APPLICATION"                          0 KB       0 rows
+. . imported "ERP"."AR_APPLICATION_TYPE"                     0 KB       0 rows
+. . imported "ERP"."AR_BALANCE"                              0 KB       0 rows
+. . imported "ERP"."AR_TRANSACTION"                          0 KB       0 rows
+. . imported "ERP"."AUDIT_DTL"                               0 KB       0 rows
+. . imported "ERP"."AUDIT_HDR"                               0 KB       0 rows
+. . imported "ERP"."AUDIT_HEADER"                            0 KB       0 rows
+. . imported "ERP"."BANKS"                                   0 KB       0 rows
+. . imported "ERP"."BANK_ACCOUNTS"                           0 KB       0 rows
+. . imported "ERP"."BANK_RECONCILIATION"                     0 KB       0 rows
+. . imported "ERP"."BANK_STATEMENT_DT"                       0 KB       0 rows
+. . imported "ERP"."BANK_STATEMENT_HD"                       0 KB       0 rows
+. . imported "ERP"."CASH_DISBURSEMENT"                       0 KB       0 rows
+. . imported "ERP"."CASH_DISBURSEMENT_DTL"                   0 KB       0 rows
+. . imported "ERP"."CASH_DISBURSEMENT_HDR"                   0 KB       0 rows
+. . imported "ERP"."CASH_RECEIPT_ACCT"                       0 KB       0 rows
+. . imported "ERP"."CASH_RECEIPT_DT"                         0 KB       0 rows
+. . imported "ERP"."CASH_RECEIPT_HD"                         0 KB       0 rows
+. . imported "ERP"."CASH_RECEIPT_MEANS"                      0 KB       0 rows
+. . imported "ERP"."CASH_TRANS"                              0 KB       0 rows
+. . imported "ERP"."CHART_ACCOUNTS"                          0 KB       0 rows
+. . imported "ERP"."CUSTOMER_DISCOUNT"                       0 KB       0 rows
+. . imported "ERP"."DOCUMENT_FLOW"                           0 KB       0 rows
+. . imported "ERP"."GL_JOURNAL_HD"                           0 KB       0 rows
+. . imported "ERP"."GL_JOURNAL_LINE"                         0 KB       0 rows
+. . imported "ERP"."GL_MAPPING_RULE"                         0 KB       0 rows
+. . imported "ERP"."INV_BATCH"                               0 KB       0 rows
+. . imported "ERP"."INV_SERIAL"                              0 KB       0 rows
+. . imported "ERP"."INV_STOCK"                               0 KB       0 rows
+. . imported "ERP"."INV_TRANS"                               0 KB       0 rows
+. . imported "ERP"."INV_TRANS_BATCH"                         0 KB       0 rows
+. . imported "ERP"."INV_TRANS_SERIAL"                        0 KB       0 rows
+. . imported "ERP"."JE_HD"                                   0 KB       0 rows
+. . imported "ERP"."JE_LINE"                                 0 KB       0 rows
+. . imported "ERP"."PERIOD_CLOSING_LOG"                      0 KB       0 rows
+. . imported "ERP"."PERIOD_CONTROL"                          0 KB       0 rows
+. . imported "ERP"."PICKLIST_HD"                             0 KB       0 rows
+. . imported "ERP"."PICKLIST_LINE"                           0 KB       0 rows
+. . imported "ERP"."POSTING_LOG"                             0 KB       0 rows
+. . imported "ERP"."PRICING_RULE_HD"                         0 KB       0 rows
+. . imported "ERP"."REVERSAL_LOG"                            0 KB       0 rows
+. . imported "ERP"."SALES_HD"                                0 KB       0 rows
+. . imported "ERP"."SALES_LINE"                              0 KB       0 rows
+. . imported "ERP"."SRET_HD"                                 0 KB       0 rows
+. . imported "ERP"."TAX_TRANSACTION"                         0 KB       0 rows
+. . imported "ERP"."UOM_GRP"                                 0 KB       0 rows
+Processing object type SCHEMA_EXPORT/TABLE/INDEX/INDEX
+Processing object type SCHEMA_EXPORT/TABLE/CONSTRAINT/CONSTRAINT
+Processing object type SCHEMA_EXPORT/TABLE/INDEX/STATISTICS/INDEX_STATISTICS
+Processing object type SCHEMA_EXPORT/FUNCTION/FUNCTION
+Processing object type SCHEMA_EXPORT/PROCEDURE/PROCEDURE
+Processing object type SCHEMA_EXPORT/FUNCTION/ALTER_FUNCTION
+ORA-39082: Object type ALTER_FUNCTION:"ERP"."FN_GET_CUSTOMER_CREDIT" created with compilation warnings
+ORA-39082: Object type ALTER_FUNCTION:"ERP"."FN_VALIDATE_PERIOD" created with compilation warnings
+Processing object type SCHEMA_EXPORT/PROCEDURE/ALTER_PROCEDURE
+ORA-39082: Object type ALTER_PROCEDURE:"ERP"."SP_AUDIT_HEADER" created with compilation warnings
+ORA-39082: Object type ALTER_PROCEDURE:"ERP"."SP_AUDIT_LOG" created with compilation warnings
+ORA-39082: Object type ALTER_PROCEDURE:"ERP"."SP_AUDIT_SAVE_OLD" created with compilation warnings
+ORA-39082: Object type ALTER_PROCEDURE:"ERP"."SP_CLOSE_PERIOD" created with compilation warnings
+ORA-39082: Object type ALTER_PROCEDURE:"ERP"."SP_POST_AR" created with compilation warnings
+ORA-39082: Object type ALTER_PROCEDURE:"ERP"."SP_POST_DOCUMENT" created with compilation warnings
+ORA-39082: Object type ALTER_PROCEDURE:"ERP"."SP_POST_INVENTORY" created with compilation warnings
+ORA-39082: Object type ALTER_PROCEDURE:"ERP"."SP_POST_JOURNAL" created with compilation warnings
+ORA-39082: Object type ALTER_PROCEDURE:"ERP"."SP_POST_SALES" created with compilation warnings
+ORA-39082: Object type ALTER_PROCEDURE:"ERP"."SP_REVERSE_JOURNAL" created with compilation warnings
+ORA-39082: Object type ALTER_PROCEDURE:"ERP"."SP_REVERSE_SALES" created with compilation warnings
+ORA-39082: Object type ALTER_PROCEDURE:"ERP"."SP_COMPUTE_TAX1" created with compilation warnings
+ORA-39082: Object type ALTER_PROCEDURE:"ERP"."SP_POST_TAX" created with compilation warnings
+Processing object type SCHEMA_EXPORT/VIEW/VIEW
+Processing object type SCHEMA_EXPORT/TABLE/CONSTRAINT/REF_CONSTRAINT
+Processing object type SCHEMA_EXPORT/TABLE/TRIGGER
+Processing object type SCHEMA_EXPORT/TABLE/STATISTICS/TABLE_STATISTICS
+Job "SYSTEM"."SYS_IMPORT_FULL_01" completed with 16 error(s) at 15:56:45

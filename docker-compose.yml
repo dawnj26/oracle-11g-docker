@@ -1,0 +1,14 @@
+services:
+  oracle-db:
+    build: .
+    container_name: oracle-11g-custom
+    shm_size: "2gb"
+    ports:
+      - "1521:1521"
+      - "8080:8080"
+    volumes:
+      - oracle_data:/u01/app/oracle/oradata
+      - ./imports:/u01/app/oracle/scripts/imports
+
+volumes:
+  oracle_data:
